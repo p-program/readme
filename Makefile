@@ -29,3 +29,7 @@ update_theme:
 run:
 	hugo -D
 	hugo server -D
+
+new:
+	hugo new content/post/$post.md
+	mkdir -p static/image/post/$post

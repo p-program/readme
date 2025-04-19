@@ -1,15 +1,17 @@
 # p-program
 
 ## clone
-
+    brew install hugo
     git clone git@github.com:p-program/readme.git
     git clone git@github.com:p-program/p-program.github.io.git
     
 
 ## new post
 
-    post=One-Open-Operating-System
+    post=AI-Driven-Design-Shit-Database
     hugo new content/post/$post.md
+    # edit latest *md file in the post directory
+    
 
 ## architecture
 
