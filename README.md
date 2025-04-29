@@ -8,11 +8,10 @@
 
 ## new post
 
-    post=AI-Driven-Design-Shit-Database
+    post=OAM
     hugo new content/post/$post.md
     # edit latest *md file in the post directory
     
-
 ## architecture
 
 ### themes/axiom
