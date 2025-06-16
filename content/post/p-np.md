@@ -3,7 +3,7 @@ date: 2025-06-16T05:00:00Z
 lastmod: 2025-06-16T05:00:00Z
 author: Zeusro
 title: "我已证明P=NP"
-subtitle: "RSA IS DEAD!!!"
+subtitle: "RSA IS DEAD!!!RSA IS DEAD!!!RSA IS DEAD!!!"
 feature: "image/post/P=NP/p=np.png"
 ---
 
