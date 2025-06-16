@@ -7,6 +7,8 @@ subtitle: "RSA IS DEAD!!!"
 feature: "image/post/P=NP/p=np.png"
 ---
 
+[English Version](https://medium.com/@zeusro/p-np-45d6766dd2e6)
+
 ## 缘起
 
     One is all,all in one.
