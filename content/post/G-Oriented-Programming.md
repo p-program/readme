@@ -2,7 +2,7 @@
 author: "Zeusro"
 title: "面向甩锅开发"
 date: 2020-04-06T21:39:05+08:00
-draft: false
+draft: true
 feature: "image/post/G-Oriented-Programming/g.jpg"
 ---
 

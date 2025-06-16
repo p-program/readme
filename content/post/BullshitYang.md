@@ -2,7 +2,7 @@
 author: "Zeusro"
 title: "政治老师哪有这么可爱"
 date: 2020-03-27T09:26:58+08:00
-draft: false
+draft: true
 feature: "image/post/BullshitMaterialism/god.jpg"
 ---
 
