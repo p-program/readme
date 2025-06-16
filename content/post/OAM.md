@@ -4,7 +4,6 @@ lastmod: 2025-04-28T14:00:00Z
 author: Zeusro
 title: "OAM(Open AI Model)"
 subtitle: "OAM vs OAM"
-feature: "path_plus_filename_or_public_id"
 feature: "image/post/OAM/oam.png"
 ---
 
@@ -49,4 +48,3 @@ Actual DevOps job is like that:
 ## Link
 
 [天地不仁以万物为刍狗](https://github.com/oam-dev/spec/pull/381)
-

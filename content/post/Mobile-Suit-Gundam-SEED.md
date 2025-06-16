@@ -69,8 +69,8 @@ docker 容器其实是一个数据+状态机。
 
 Kubernetes 是一台负责管理调度容器（高达）的航空母舰——大天使号。
 
-## [OAM](https://github.com/oam-dev/spec)
+## [OAM](https://github.com/p-program/oam)
 
 ![image](/image/post/Mobile-Suit-Gundam-SEED/OAM.png)
 
-[OAM](https://github.com/oam-dev/spec) ( ~~Open Autorobot Model~~ ) 是自由高达的驾驶舱。
+[OAM](https://github.com/p-program/oam) Open AI Model 是自由高达的驾驶舱里面的语音控制模块。

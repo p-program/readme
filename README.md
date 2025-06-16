@@ -8,7 +8,7 @@
 
 ## new post
 
-    post=OAM
+    post=P=NP
     hugo new content/post/$post.md
     # edit latest *md file in the post directory
     
