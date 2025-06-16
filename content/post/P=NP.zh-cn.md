@@ -2,8 +2,8 @@
 date: 2025-06-16T00:00:00Z
 lastmod: 2025-06-16T00:00:00Z
 author: Zeusro
-title: "P=NP"
-subtitle: "I have proved P=NP problem."
+title: "我已证明P=NP"
+subtitle: "小难"
 feature: "image/post/P=NP/p=np.png"
 ---
 

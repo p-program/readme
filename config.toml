@@ -153,6 +153,6 @@ weight = 2
 weight = 1
 languageName = "US English"
 [languages.zh]
-  languageName = "中文"
-  weight = 2
-  contentDir = "content/zh"
+languageName = "中文"
+weight = 2
+contentDir = "content/zh"
