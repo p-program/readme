@@ -3,7 +3,7 @@ author: "Zeusro"
 title: "One Open Operating System"
 subtitle: Next Generation Operating System
 date: 2020-10-20T19:24:49+08:00
-draft: true
+draft: false
 feature: "image/post/One-Open-Operating-System/0-cover.png"
 ---
 

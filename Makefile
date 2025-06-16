@@ -2,7 +2,8 @@ now := $(shell date)
 
 auto_commit: pull
 	git add .
-	hugo -D
+	rm -rf resources/ public/
+	hugo
 	git commit -am "$(now)"	
 	git push
 	# sub module
@@ -28,7 +29,8 @@ update_theme:
 
 run:
 	hugo -D
-	hugo server -D
+	rm -rf resources/ public/
+	hugo server -D  --disableFastRender --forceSyncStatic --noHTTPCache
 
 new:
 	hugo new content/post/$post.md

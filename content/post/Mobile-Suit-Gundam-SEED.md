@@ -3,7 +3,7 @@ author: "Zeusro"
 title: "机动容器 GUNDAM SEED"
 subtitle: Mobile Suit Gundam SEED
 date: 2020-08-03T20:32:49+08:00
-draft: true
+draft: false
 feature: "image/post/Mobile-Suit-Gundam-SEED/GAT-X_Operating_System.png"
 ---
 

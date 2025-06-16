@@ -1,7 +1,7 @@
 ---
 title: "漫无止境的八月"
 date: 2020-05-19T21:20:00+08:00
-draft: true
+draft: false
 subtitle: 工作是做不完的，但生命是有限的。
 feature: "image/post/Endless-August/0.png"
 ---
