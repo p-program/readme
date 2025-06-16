@@ -4,6 +4,7 @@ lastmod: 2025-06-16T00:00:00Z
 author: Zeusro
 title: "我已证明P=NP"
 subtitle: "小难"
+draft: true
 feature: "image/post/P=NP/p=np.png"
 ---
 
