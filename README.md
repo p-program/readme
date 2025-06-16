@@ -1,6 +1,7 @@
-# p-program
+# P=NP
 
 ## clone
+
     brew install hugo
     git clone git@github.com:p-program/readme.git
     git clone git@github.com:p-program/p-program.github.io.git
@@ -14,7 +15,7 @@
     
 ## architecture
 
-### themes/axiom
+### themes
 
 [axiom](https://github.com/marketempower/axiom)
 

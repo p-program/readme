@@ -1,8 +1,8 @@
 baseURL = "https://example.com"
 
 title = "Axiom A Hugo Theme"
-languageCode = "en-us"
-defaultContentLanguage = "en-us"
+languageCode = "zh"
+defaultContentLanguage = "zh"
 
 theme = "axiom"
 

@@ -1,7 +1,7 @@
 ---
 date: 2025-04-19T00:00:00Z
 lastmod: 2025-04-19T00:00:00Z
-author: default
+author: Zeusro
 title: "AI Driven Design Shit Database"
 subtitle: "应用AI驱动开发记录个人拉屎数据"
 feature: "image/post/AI-Driven-Design-Shit-Database/image.png"
