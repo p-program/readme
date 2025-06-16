@@ -149,10 +149,13 @@ name = "About"
 weight = 2
 
 [languages]
-[languages."en-us"]
-weight = 1
-languageName = "US English"
-[languages.zh]
-languageName = "中文"
-weight = 2
-contentDir = "content/zh"
+  [languages."en-us"]
+    # weight 意为排序权重
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = true
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."  
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
