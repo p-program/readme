@@ -9,8 +9,6 @@ feature: "image/post/P=NP/p=np.png"
 
 [English Version](https://medium.com/@zeusro/p-np-45d6766dd2e6)
 
-## 缘起
-
     One is all,all in one.
 
 ## 第一性原理
@@ -81,7 +79,5 @@ O(n)的问题，最终降维成O(1)解决。
 
 I think I have proved P=NP problem from math.
 Other 20%,time will tell.
-
-## 缘灭
 
     宇宙内事乃己分内事，己分内事乃宇宙内事
