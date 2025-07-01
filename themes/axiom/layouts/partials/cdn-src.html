@@ -1,6 +1,7 @@
 {{- $provider := .Site.Params.cdn.provider | default "local" }}
 {{- $preset := index .Site.Params $provider "presets" .preset | default "" }}
 {{- $type := .type | default .Site.Params.cdn.type }}
+{{- $isCover := eq .tag "cover" }}
 {{- $src := .src | default "" }}
 {{- $resource := "" }}
 
@@ -11,5 +12,9 @@
   {{- $type = index .Site.Params.cloudinary $type }}
   {{- $resource = printf "%s%s%s%s%s" .Site.Params.cloudinary.host $type $preset .Site.Params.cloudinary.version $src }}
 {{- end -}}
+
+{{- if $isCover }}
+  {{- $resource = printf "<img src='%s' class='custom-cover-img' />" $resource | safeHTML }}
+{{- end }}
 
 {{ return $resource }}
