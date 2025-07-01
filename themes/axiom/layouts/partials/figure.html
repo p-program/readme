@@ -23,7 +23,21 @@ Example usage in partials (the "dict src" is used in partial "cdn-src"):
 {{- partial "figure" (dict "Site" $.Site "Page" . "src" $src "alt" $alt "caption" $caption "preset" "feature" ...etc) -}}
 */}}
 {{- $imgSrc := partial "cdn-src" (dict "Site" $.Site "Page" . "src" .src "preset" .preset) }}
-{{- $imgClass := .imgclass | default "mb-2 mx-auto leading-none shadow-xl" }}
+{{/* {{- $imgClass := .imgclass | default "mb-2 mx-auto leading-none shadow-xl" }} */}}
+
+{{/* •	imgmode="rounded"：生成圆形头像样式；
+	•	imgmode="border"：给图片加边框；
+	•	imgmode="grayscale"：变为灰度图；
+	•	不加 imgmode 时使用默认 class。 */}}
+{{- $modes := dict
+  "default" "mb-2 mx-auto leading-none shadow-xl"
+  "rounded" "mb-2 mx-auto leading-none rounded-full shadow" 
+  "border"  "mb-2 mx-auto leading-none border border-gray-300"
+  "grayscale" "mb-2 mx-auto leading-none filter grayscale"
+}}
+{{- $imgMode := .imgmode | default "default" }}
+{{- $imgClass := index $modes $imgMode }}
+
 {{- $captionClass := .captionclass | default "text-sm text-right text-raven-500" }}
 
 <figure{{ with .class }} class="{{ . }}"{{ end }}>
