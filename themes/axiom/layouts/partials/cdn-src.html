@@ -14,7 +14,7 @@
 {{- end -}}
 
 {{- if $isCover }}
-  {{- $resource = printf "<img src='%s' class='custom-cover-img' style='max-width:800px%;' />" $resource | safeHTML }}
+  {{- $resource = printf "<img src='%s' class='custom-cover-img' style='max-width:800px;' />" $resource | safeHTML }}
 {{- end }}
 
 {{ return $resource }}

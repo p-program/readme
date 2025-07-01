@@ -2,10 +2,15 @@
   {{- if .Params.feature }}
   {{- $imgSrc := partial "cdn-src" (dict "Site" $.Site "Page" . "src" .Params.feature "preset" "summary") }}
   <div class="sm:flex-shrink-0 mb-4 sm:mb-0 sm:mr-10">
-    <a class="block" href="{{ .RelPermalink }}"><img
-    class="sm:w-40 sm:h-40 mx-auto object-cover"
-    src="{{ $imgSrc }}"
-    alt="{{ .Title }}"></a>
+    <a class="block" href="{{ .RelPermalink }}">
+    <img class="sm:w-40 sm:h-40 mx-auto object-cover"  src="{{ $imgSrc }}"  alt="{{ .Title }}"></a>
+  </div>
+  {{- end }}
+    {{- if .Params.cover }}
+  {{- $imgSrc := partial "cdn-src" (dict "Site" $.Site "Page" . "src" .Params.cover "preset" "summary") }}
+  <div class="sm:flex-shrink-0 mb-4 sm:mb-0 sm:mr-10">
+    <a class="block" href="{{ .RelPermalink }}">
+    <img class="sm:w-40 sm:h-40 mx-auto object-cover"  src="{{ $imgSrc }}"  alt="{{ .Title }}"></a>
   </div>
   {{- end }}
   <div class="font-content-sans">
