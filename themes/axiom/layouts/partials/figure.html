@@ -36,11 +36,12 @@ Example usage in partials (the "dict src" is used in partial "cdn-src"):
 }}
 {{- $imgMode := .imgmode | default "default" }}
 {{- $imgClass := index $modes $imgMode }}
+
+{{- $cover := or .Params.cover (or .Params.featureImage (or .Params.image "/static/image/bungo-stray-dogs4_kv.jpg")) }}
 {{- if .cover }}
   {{- $imgClass = "w-full max-h-96 object-cover rounded-xl shadow" }}
 {{- end }}
 
-{{- $cover := or .Params.cover (or .Params.featureImage (or .Params.image "/static/image/bungo-stray-dogs4_kv.jpg")) }}
 
 {{- $captionClass := .captionclass | default "text-sm text-right text-raven-500" }}
 
