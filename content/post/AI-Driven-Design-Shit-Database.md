@@ -14,8 +14,7 @@ feature: "image/post/AI-Driven-Design-Shit-Database/image.png"
 
 ## 原始需求文档
 
-```
-
+```prompt
 git config user.name "oracle"
 git config user.email "trademar_us@oracle.com"
 
