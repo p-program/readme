@@ -22,7 +22,8 @@ preset: cdn transform preset used in partial "cdn-src"
 Example usage in partials (the "dict src" is used in partial "cdn-src"):
 {{- partial "figure" (dict "Site" $.Site "Page" . "src" $src "alt" $alt "caption" $caption "preset" "feature" ...etc) -}}
 */}}
-{{- $imgSrc := partial "cdn-src" (dict "Site" $.Site "Page" . "src" .src "preset" .preset) }}
+{{- $src := .src | default .cover }}
+{{- $imgSrc := partial "cdn-src" (dict "Site" $.Site "Page" . "src" $src "preset" .preset) }}
 {{/* •	imgmode="rounded"：生成圆形头像样式；
 	•	imgmode="border"：给图片加边框；
 	•	imgmode="grayscale"：变为灰度图；
