@@ -2,7 +2,7 @@
 author: "Zeusro"
 title: "Distributed Wives System"
 date: 2020-04-24T17:13:31+08:00
-draft: false
+draft: true
 subtitle: 亚当一觉醒来，看到女人，说：“这是我骨中的骨，肉中的肉！”
 feature: "image/post/Distributed-Wives-System/school-days.png"
 ---
