@@ -24,3 +24,15 @@ git pull origin master
 npm install
 npm run prd
 ```
+
+## 在 Markdown 中这样使用 Shortcode
+
+```markdown
+{{< img src="/images/avatar.jpg" imgmode="rounded" >}}
+
+{{< img src="/images/avatar.jpg" imgmode="border" >}}
+
+{{< img src="/images/avatar.jpg" imgmode="grayscale" >}}
+
+{{< img src="/images/avatar.jpg" >}}  <!-- 使用默认模式 -->
+```

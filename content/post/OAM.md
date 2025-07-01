@@ -4,7 +4,8 @@ lastmod: 2025-04-28T14:00:00Z
 author: Zeusro
 title: "OAM(Open AI Model)"
 subtitle: "OAM vs OAM"
-feature: "image/post/OAM/oam.png"
+# feature: "image/post/OAM/oam.png"
+cover: "image/post/OAM/oam.png"
 ---
 
 `双兔傍地走，安能辨我是雄雌`
