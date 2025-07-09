@@ -17,7 +17,7 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 ## 方法
 
-![image](/image/post/DuckDuckGo/duck.png)
+<img src="/image/post/DuckDuckGo/duck.png" alt="duck" width="50%" />
 
 在小程序“鸭大一鸭通行”个人资料中追加一个**Duck**和**Double  Duck**字段，分别代表鸭子和鸭王身份。
 
