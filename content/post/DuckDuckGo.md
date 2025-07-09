@@ -39,7 +39,7 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 **Double  Duck**：羊城鸭王
 
-<iframe width="760" height="615"
+<iframe width="720" height="615"
   src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
   frameborder="0"
   allowfullscreen>
