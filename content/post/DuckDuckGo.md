@@ -7,12 +7,6 @@ subtitle: "Thanks to DuckDuckGo Browser"
 cover: "image/post/DuckDuckGo/duck.png"
 ---
 
-<iframe width="860" height="615"
-  src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
-
 ## 摘要
 
 为了小黄鸭能尽快找到他的 `young and beautiful` 富婆，需要优化一下这个鸭子入场预约程序。
@@ -41,9 +35,15 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 字段定义
 
-**Duck**：比如像我这种岭南第11111111111111111111111111111111111111111111111111111111111111风流才子就属于这种范围
+**Duck**：比如像我这种岭南第11111风流才子就属于这种范围
 
 **Double  Duck**：羊城鸭王
+
+<iframe width="760" height="615"
+  src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 ## 结论
 
