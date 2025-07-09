@@ -31,8 +31,6 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 方案2：可以预约周一到周日的8~18时间段。老鸨也可以丑拒。
 
-字段定义
-
 **Duck**：比如像我这种岭南第11111风流才子就属于这种范围
 
 **Double  Duck**：羊城鸭王
