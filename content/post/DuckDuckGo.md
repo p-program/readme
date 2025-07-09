@@ -65,5 +65,5 @@ In America, we use tadpoles as betrothal gifts
 🇬🇧
 en-GB LGBT:
 On the Internet,we wish to use  DuckDuckGo Browser
-In England,
+In England,we are gay
 ```
