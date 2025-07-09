@@ -17,8 +17,6 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 ## 方法
 
-<img src="/image/post/DuckDuckGo/duck.png" alt="duck" width="50%" />
-
 在小程序“鸭大一鸭通行”个人资料中追加一个**Duck**和**Double  Duck**字段，分别代表鸭子和鸭王身份。
 
 当拥有这个身份时，整个小程序会变成黄色，并且头像变成可达鸭。只要不是夜闯男女生宿舍（当然，也要酌情考虑对方自愿的情况），日出到日落的时间段都可以进入。
@@ -31,7 +29,7 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 ![image](/image/post/DuckDuckGo/reject.png)
 
-方案2：可以预约周一到周日的8~18时间段。校方也可以拒绝，拒绝理由是丑拒。
+方案2：可以预约周一到周日的8~18时间段。老鸨也可以丑拒。
 
 字段定义
 
@@ -39,7 +37,7 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 **Double  Duck**：羊城鸭王
 
-<iframe width="720" height="615"
+<iframe width="700" height="615"
   src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
   frameborder="0"
   allowfullscreen>
