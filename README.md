@@ -9,7 +9,7 @@
 
 ## new post
 
-    post='P-NP';hugo new content/post/$post.md
+    post='DuckDuckGo';hugo new content/post/$post.md
     # edit latest *md file in the post directory
     
 ## architecture
