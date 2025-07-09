@@ -4,10 +4,10 @@ lastmod: 2025-07-06T23:00:00Z
 author: Zeusro
 title: "鸭大一鸭通行游戏"
 subtitle: "Thanks to DuckDuckGo Browser"
-feature: "image/post/DuckDuckGo/duck.png"
+cover: "image/post/DuckDuckGo/duck.png"
 ---
 
-<iframe width="1560" height="315"
+<iframe width="1060" height="615"
   src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
   frameborder="0"
   allowfullscreen>
@@ -65,4 +65,5 @@ In America, we use tadpoles as betrothal gifts
 🇬🇧
 en-GB LGBT:
 On the Internet,we wish to use  DuckDuckGo Browser
+In England,
 ```
