@@ -7,7 +7,7 @@ subtitle: "Thanks to DuckDuckGo Browser"
 cover: "image/post/DuckDuckGo/duck.png"
 ---
 
-<iframe width="1060" height="615"
+<iframe width="860" height="615"
   src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
   frameborder="0"
   allowfullscreen>
