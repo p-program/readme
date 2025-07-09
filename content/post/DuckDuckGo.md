@@ -4,10 +4,10 @@ lastmod: 2025-07-06T23:00:00Z
 author: Zeusro
 title: "鸭大一鸭通行游戏"
 subtitle: "Thanks to DuckDuckGo Browser"
-feature: "path_plus_filename_or_public_id"
+feature: "image/post/DuckDuckGo/duck.png"
 ---
 
-<iframe width="560" height="315"
+<iframe width="1560" height="315"
   src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
   frameborder="0"
   allowfullscreen>
@@ -40,6 +40,7 @@ feature: "path_plus_filename_or_public_id"
 方案2：可以预约周一到周日的8~18时间段。校方也可以拒绝，拒绝理由是丑拒。
 
 字段定义
+
 **Duck**：比如像我这种岭南第11111111111111111111111111111111111111111111111111111111111111风流才子就属于这种范围
 
 **Double  Duck**：羊城鸭王
