@@ -9,7 +9,7 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 ## 摘要
 
-为了小黄鸭能尽快找到他的 `young and beautiful` 富婆，需要优化一下这个鸭子入场预约程序。
+为了小黄鸭能尽快找到他的 `young and beautiful` 富婆，需要优化一下这个鸭子入鸭场的预约程序。
 
 ## 引言
 
@@ -43,12 +43,6 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 ## 结论
 
-![image](/image/post/DuckDuckGo/for-everyone.png)
-
-“天下為公”。
-
-## 结论
-
 ```poem
 在天愿作比翼鸟
 在地愿为连理枝
@@ -63,3 +57,5 @@ en-GB LGBT:
 On the Internet,we wish to use  DuckDuckGo Browser
 In England,we are gay
 ```
+
+![image](/image/post/DuckDuckGo/for-everyone.png)
