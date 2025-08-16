@@ -2,7 +2,7 @@
 date: 2025-07-06T23:00:00Z
 lastmod: 2025-07-06T23:00:00Z
 author: Zeusro
-title: "鸭大一鸭通行游戏"
+title: "一鸭通行"
 subtitle: "Thanks to DuckDuckGo Browser"
 cover: "image/post/DuckDuckGo/duck.png"
 ---
