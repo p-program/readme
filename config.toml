@@ -24,7 +24,7 @@ mainSections = ["post"]
 copyrightYear = 2000
 
 [params.services]
-analyticsId = "UA-DEV"
+analyticsId = "G-SV147K5SLW"
 adwordsId = "AW-DEV"
 # adsense 广告
 adsenseId = ""
