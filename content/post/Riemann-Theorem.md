@@ -8,7 +8,7 @@ feature: "image/post/Riemann/3.jpg"
 ---
 
 
-```
+```txt
 1: 2个美女炸鸡柳，3个傻子上西天
 2: 在座的各位都是垃圾
 ```
