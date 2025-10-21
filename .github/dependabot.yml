@@ -1,0 +1,33 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  # 更新 GitHub Actions 自己的版本
+  - package-ecosystem: "github-actions"
+    directory: "/"               # 这里假设你的 workflow 在根目录
+    schedule:
+      interval: "weekly"         # 每周检查一次
+    open-pull-requests-limit: 5  # 最多 5 个 PR 同时打开，可根据需要调整
+
+  # 如果你有 npm／Node.js 依赖
+  - package-ecosystem: "npm"
+    directory: "/"               # 你的 package.json 所在目录
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # 如果你有 Hugo 主题或 npm 构建依赖（可选）
+  - package-ecosystem: "npm"
+    directory: "/themes/axiom"
+    schedule:
+      interval: "weekly"
+
+  # 如果你还用了 Docker 镜像或其他生态系统
+  # - package-ecosystem: "docker"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "monthly"
+
+# 以下可选：忽略特定依赖或版本
+#    ignore:
+#      - dependency-name: "some-dep"
+#        versions: ["^1.0.0"]
