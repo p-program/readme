@@ -1,10 +1,11 @@
 name: Build & Deploy Hugo site to GitHub Pages
 
-# 触发条件：当 push 到 main 分支，或手动触发
+# 触发条件：当 push 到指定的branches，或手动触发
 on:
   push:
     branches:
       - mster          # 如你的主分支不是 main，请改为实际分支名
+  # 增加手动触发选项
   workflow_dispatch:
 
 permissions:
