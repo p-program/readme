@@ -2,9 +2,9 @@
   "private": true,
   "name": "example-com",
   "description": "Example Website",
-  "author": "Example <example@example.com> (https://www.example.com/)",
-  "homepage": "https://www.example.com/",
-  "repository": "github:example/example.com.git",
+  "author": "Example <example@example.com> (https://www.bullshitprogram.com/)",
+  "homepage": "https://www.bullshitprogram.com/",
+  "repository": "https://github.com/p-program/readme.git",
   "license": "CC-BY-SA-4.0",
   "scripts": {
     "prd": "hugo -e production -v --gc --minify --cleanDestinationDir",

@@ -9,7 +9,7 @@
 
 ## new post
 
-    post='DuckDuckGo';hugo new content/post/$post.md
+    post='Riemann-Theorem';hugo new content/post/$post.md
     # edit latest *md file in the post directory
     
 ## architecture

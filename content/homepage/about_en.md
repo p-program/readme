@@ -4,4 +4,4 @@ button: ''
 weight: 2
 ---
 
-All CODE guidelines are bullshit.
+All CODE guidelines are bullshit!
