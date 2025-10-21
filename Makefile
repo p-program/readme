@@ -2,13 +2,13 @@ now := $(shell date)
 
 auto_commit: pull
 	git add .
-	rm -rf resources/ public/
-	hugo
 	git commit -am "$(now)"	
 	git push
 	# sub module
-	cp -r public/ ../p-program.github.io/
-	cd ../p-program.github.io && make
+# 	rm -rf resources/ public/
+# 	hugo	
+# 	cp -r public/ ../p-program.github.io/
+# 	cd ../p-program.github.io && make
 
 clean:
 	git rm -r --cached .
