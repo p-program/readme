@@ -74,5 +74,5 @@ func main() {
 ## Link
 
 [1]
-『攻殻機動隊SAC_2045』を理解する前に、『1984』という警世寓話小説を理解した人はいるか？
+看懂《攻殼機動隊SAC_2045》之前，有誰看懂《1984》這部警世寓言小說
 https://www.4gamers.com.tw/news/detail/43070/ghost-in-the-shell-sac-2045-and-george-orwell-1984-connection
