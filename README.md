@@ -9,7 +9,7 @@
 
 ## new post
 
-    post='Riemann-Theorem';hugo new content/post/$post.md
+    post='Code-1A84';hugo new content/post/$post.md
     # edit latest *md file in the post directory
     
 ## architecture

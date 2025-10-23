@@ -14,7 +14,7 @@ enableRobotsTXT = true
 pluralizelisttitles = false
 footnoteReturnLinkContents = "&#8617;"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [permalinks]
 post = "/:filename"
@@ -90,7 +90,6 @@ logo = "<svg class=\"fill-current\" viewBox=\"0 0 32 32\"><path d=\"M16,25 L32,2
 home = ["HTML", "ATOM"]
 section = ["HTML"]
 taxonomy = ["HTML"]
-taxonomyTerm = ["HTML"]
 
 [outputFormats]
 [outputFormats.ATOM]

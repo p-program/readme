@@ -8,8 +8,6 @@ subtitle: "OAM vs OAM"
 cover: "image/post/OAM/oam.png"
 ---
 
-`双兔傍地走，安能辨我是雄雌`
-
 ## Spec
 
 ```GO
@@ -42,10 +40,18 @@ They know nothing about DevOps.
 
 The basic model is not right,the following content is completely wrong.
 
-Actual DevOps job is like that:
-
 ![image](/image/post/OAM/suo.png)
+
+In real DevOps, it’s about action—JUST DO IT!
+
+**雙兔傍地走，安能辨我是雄雌**
 
 ## Link
 
-[天地不仁以万物为刍狗](https://github.com/oam-dev/spec/pull/381)
+[1] 
+天地不仁以万物为刍狗
+https://github.com/oam-dev/spec/pull/381
+
+[2]
+Is the OAM spec being actively developed?
+https://github.com/oam-dev/spec/issues/488

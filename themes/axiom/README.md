@@ -128,7 +128,7 @@ pluralizelisttitles = false
 footnoteReturnLinkContents = "&#8617;"
 
 # Don't output tags or categories (remove to re-enable)
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 ```
 
 > If you change the `defaultContentLanguage` you must add the new language in the Config `[languages]` table, and an i18n language file in `/i18n/lang-code.toml`.
