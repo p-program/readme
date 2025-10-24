@@ -17,7 +17,7 @@ footnoteReturnLinkContents = "&#8617;"
 disableKinds = ["taxonomy"]
 
 [permalinks]
-post = "/:filename"
+post = "/:contentbasename"
 
 [params]
 mainSections = ["post"]
