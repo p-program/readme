@@ -4,28 +4,14 @@ body {
   @apply antialiased;
 }
 
-/* Pretty ups */
+/* pretty ups */
 a,
 button,
 input {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Utilities */
-/* Utilities not used in theme, but provided for user */
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-/* Vue.js v-cloak hide element until loaded */
-[v-cloak] {
+/* alpine.js, vue.js */
+[x-cloak], [v-cloak] {
   @apply hidden;
 }

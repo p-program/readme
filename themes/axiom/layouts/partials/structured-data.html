@@ -4,29 +4,15 @@
 {{- if .Params.feature }}
 {{- $imgFeature := partial "cdn-src" (dict "Site" $.Site "Page" . "src" .Params.feature "preset" "feature") -}}
 <link rel="preload" as="image" href="{{ $imgFeature }}">
-{{ end }}
-
-{{- $title := "" -}}
-{{- if .IsHome }}
-  {{- $title = (printf "%s : %s" (T "tagline") .Site.Title) -}}
-{{- else if .Title }}
-  {{- $title = (printf "%s : %s" .Title .Site.Title) -}}
-{{- end }}
-<title>{{ $title }}</title>
-
-{{- $description := (trim .Summary "\n") }}
-{{- if .IsHome }}
-  {{- $description = T "description" }}
-{{- else if .Description }}
-  {{- $description = (trim .Description "\n") }}
-{{- end }}
-{{- if .Params.subtitle }}
-  {{- $description = printf "%s %s" .Params.subtitle $description }}
 {{- end }}
 
-{{- $author := index .Site.Data.author (.Params.author | default "default") }}
+<title>{{ block "title" . }}{{ with .Title }}{{ . }} : {{ end }}{{ .Site.Title }}{{ end }}</title>
 
-<meta property="og:title" content="{{ if .IsHome }}{{ T "tagline" }}{{ else }}{{ .Title }}{{ end }}">
+{{- $subtitle := partial "meta-subtitle" . }}
+{{- $summary := partial "meta-summary" . }}
+{{- $author := partial "author-data" . }}
+
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <link rel="image_src" href="{{ $imgMeta | absURL }}">
@@ -35,8 +21,8 @@
 <meta property="og:image:height" content="{{ .Site.Params.image.height }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:locale" content="{{ replace .Site.LanguageCode "-" "_" | default "en_US" }}">
-<meta property="og:description" content="{{ $description | plainify }}">
-<meta name="description" content="{{ $description | plainify }}">
+<meta property="og:description" content="{{ $summary | plainify }}">
+<meta name="description" content="{{ $summary | plainify }}">
 <meta property="og:updated_time" content="{{ dateFormat "2006-01-02T15:04:05Z" .Lastmod.UTC | safeHTML }}">
 <meta property="fb:app_id" content="{{ .Site.Params.services.facebookApp }}">
 <meta name="author" content="{{ $author.name }}">
@@ -51,17 +37,15 @@
   {{- else }}
   "@type": "Article",
   {{- end }}
-  "headline": {{ if .IsHome }}{{ T "tagline" }}{{ else }}{{ .Title }}{{ end }},
-  {{- with .Params.subtitle }}
-  "alternativeHeadline": {{ . | plainify }},
-  {{- end }}
+  "headline": {{ .Title }},
+  "alternativeHeadline": {{ $subtitle | plainify }},
   "url": {{ .Permalink }},
   "image": {{ $imgMeta | absURL }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ .Permalink }}
   },
-  "description": {{ $description | plainify }},
+  "description": {{ $summary | plainify }},
   "author": {
     "@type": "Person",
     "name": {{ $author.name }}
@@ -74,8 +58,8 @@
       "url": {{ $imgBrand | absURL }}
     }
   },
-  "datePublished": {{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC | safeHTML }},
-  "dateModified": {{ dateFormat "2006-01-02T15:04:05Z" .Lastmod.UTC | safeHTML }},
-  "articleBody": {{ trim .Content "\n" }}
+  "datePublished": {{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC }},
+  "dateModified": {{ dateFormat "2006-01-02T15:04:05Z" .Lastmod.UTC }},
+  "articleBody": {{ chomp .Content }}
 }
 </script>

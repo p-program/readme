@@ -3,12 +3,11 @@
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
+{{- $langCode := .Site.LanguageCode | default "en-us" -}}
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ .Site.LanguageCode }}">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ $langCode }}">
   <title>{{ .Site.Title }}</title>
-  {{- with T "tagline" }}
-  <subtitle>{{ . }}</subtitle>
-  {{- end }}
+  <subtitle>{{ partial "meta-subtitle" . | plainify }}</subtitle>
   <id>{{ "/" | absLangURL }}</id>
   <author>
     <name>{{ .Site.Title }}</name>
@@ -25,15 +24,15 @@
   {{- end }}
   <updated>{{ dateFormat "2006-01-02T15:04:05Z" now.UTC | safeHTML }}</updated>
   {{- with .OutputFormats.Get "ATOM" }}
-  {{ printf `<link rel="self" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
+  {{ printf `<link rel="self" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $langCode | safeHTML }}
   {{- end }}
   {{- range .AlternativeOutputFormats }}
-  {{ printf `<link rel="alternate" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
+  {{ printf `<link rel="alternate" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $langCode | safeHTML }}
   {{- end }}
   {{- range $pages }}
   <entry>
     <title>{{ .Title }}</title>
-    {{- $author := index .Site.Data.author (.Params.author | default "default") }}
+    {{- $author := partial "author-data" . }}
     <author>
       <name>{{ $author.name }}</name>
       <uri>{{ $author.uri }}</uri>
@@ -46,7 +45,7 @@
     {{ end }}
     <updated>{{ dateFormat "2006-01-02T15:04:05Z" .Lastmod.UTC | safeHTML }}</updated>
     <published>{{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC | safeHTML }}</published>
-    <content type="html">{{ trim .Content "\n" }}</content>
+    <content type="html">{{ printf "<![CDATA[%s]]>" (chomp .Content) | safeHTML }}</content>
   </entry>
   {{- end }}
 </feed>

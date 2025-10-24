@@ -1,20 +1,21 @@
 {{- $provider := .Site.Params.cdn.provider | default "local" }}
 {{- $preset := index .Site.Params $provider "presets" .preset | default "" }}
 {{- $type := .type | default .Site.Params.cdn.type }}
-{{- $isCover := eq .tag "cover" }}
 {{- $src := .src | default "" }}
 {{- $resource := "" }}
 
-{{/* default: params.cdn.provider = local */}}
-{{- $resource = $src | relURL }}
+{{- $uri := urls.Parse $src }}
+{{- if $uri.Scheme }}
+  {{- $resource = $src | safeURL }}
+{{- else }}
 
-{{- if eq "cloudinary" $provider -}}
-  {{- $type = index .Site.Params.cloudinary $type }}
-  {{- $resource = printf "%s%s%s%s%s" .Site.Params.cloudinary.host $type $preset .Site.Params.cloudinary.version $src }}
+  {{/* default: params.cdn.provider = local */}}
+  {{- $resource = $src | relURL }}
+
+  {{- if eq "cloudinary" $provider }}
+    {{- $type = index .Site.Params.cloudinary $type }}
+    {{- $resource = printf "%s%s%s%s%s" .Site.Params.cloudinary.host $type $preset .Site.Params.cloudinary.version $src }}
+  {{- end }}
 {{- end -}}
-
-{{- if $isCover }}
-  {{- $resource = printf "<img src='%s' class='custom-cover-img' style='max-width:600px;' />" $resource | safeHTML }}
-{{- end }}
 
 {{ return $resource }}

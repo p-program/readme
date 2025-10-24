@@ -1,17 +1,10 @@
-/* purgecss start ignore */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-/* purgecss end ignore */
-
-/* purgecss start ignore */
-@import "./global";
-/* purgecss end ignore */
-
 @import "tailwindcss/utilities";
+@import "tailwindcss/screens";
 
-@import "./theme";
-
-/* purgecss start ignore */
-@import "./cdata";
-@import "./syntax";
-/* purgecss end ignore */
+@import "global";
+@import "theme";
+@import "tools";
+@import "cdata";
+@import "code";
