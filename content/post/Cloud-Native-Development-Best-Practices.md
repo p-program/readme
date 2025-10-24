@@ -230,7 +230,7 @@ Do not go gentle into that good night.
 John: Zeusro,you are fired.
 
 ```go
-// I will come back in 1000000000 years to fix bugs
+// OK,I will come back in 1000000000 years to fix bugs
 if !isReady {
     return ctrl.Result{RequeueAfter: 1000000000 * time.Year}, nil
 }
