@@ -48,8 +48,6 @@ I would like to say,the key of the electronic device is AI.And I think [AI is an
 
 Finally,the electronic device will became a superb AI like Roman EXE.He will help us do some "**daily computing jobs**".
 
-The "云影" system is an example. By 5G,everything is possible.
-
 ## Kubernetes
 
 ![image](/image/post/One-Open-Operating-System/4-kubernetes.png)
@@ -110,23 +108,15 @@ In the next generation digital world,the process of taking Taxi would be like th
 
 1. Zeusro: Hi,Roman,take me home.
 1. Roman: OK,wait for a second(get your position and home's position).
-1. Roman: Here are some available service like Amap Taxi,DiDi Taxi,Meituan Taxi on the service discovery system（dubbo 3.0, social advertising system).Please make your choice.
-5. Zeusro: Amap Taxi.
-6. Roman: OK.
-7. Taxi driver: Don't BB.Just get in the car.
+1. Roman: Here are some available service like Amap Taxi,DiDi Taxi,Meituan Taxi on the service discovery system.Please make your choice.
+1. Zeusro: Amap Taxi.
+1. Roman: OK.
+1. Taxi driver: Don't BB.Just get in the car.
 
 ![image](/image/post/One-Open-Operating-System/8-cat.png)
 
 ## Link
 
 [1]
-阿里云正式发布第一台云电脑“无影”
-https://www.yicai.com/news/100775343.html
-
-[2]
-Dubbo 3.0 – 开启下一代云原生微服务
-https://www.kubernetes.org.cn/8291.html
-
-[3]
 The Seed Of Robot —— Intelligent API Gateway
 http://www.bullshitprogram.com/the-seed-of-robot/

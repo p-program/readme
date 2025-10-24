@@ -2,7 +2,7 @@
 author: "Zeusro"
 title: "Distributed Husband System"
 date: 2020-08-18T17:00:18+08:00
-draft: false
+draft: true
 subtitle: 爱是一道绿光
 feature: "image/post/Distributed-Husband-System/green.jpg"
 ---
