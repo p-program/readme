@@ -4,7 +4,7 @@ title: "广州地铁"
 date: 2020-09-02T10:04:04+08:00
 draft: false
 feature: "image/post/Guangzhou-Metro/guangzhou.png"
-subtitle: 一个优美的 Serverless 系统
+subtitle: 美しいサーバーレスシステム
 ---
 
 web 本质是一种流量，一种数据的流转。当前的 web 只是 `Serverless` 的一种特例（存活期很长的 `Serverless` ）。如果从这个角度上看，其实广州地铁是一个很优美的 `Serverless` 系统。

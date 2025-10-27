@@ -2,7 +2,7 @@
 date: 2025-10-24T16:00:00Z
 lastmod: 2025-10-24T16:00:00Z
 author: default
-title: "Cloud Naive Development Best Practices"
+title: "Cloud Naive Best Practices"
 subtitle: "単純なことを複雑にするのは、仕事を続けるための芸術だ"
 feature: "image/post/Cloud-Naive/java-in-java.png"
 ---

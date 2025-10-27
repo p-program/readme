@@ -3,12 +3,12 @@ date: 2025-04-19T00:00:00Z
 lastmod: 2025-04-19T00:00:00Z
 author: Zeusro
 title: "AI Driven Design Shit Database"
-subtitle: "应用AI驱动开发记录个人拉屎数据"
-feature: "image/post/AI-Driven-Design-Shit-Database/image.png"
+subtitle: "AIがあれば、もう脳を使う必要はない"
+feature: "image/post/AI-Driven-Design-Shit-Database/af945e428bf8442aa61b6cd017ec587c.png"
 ---
 
 
-关注个人拉屎健康：
+应用AI驱动开发记录个人拉屎数据，关注个人拉屎健康：
 
 ![image](/image/post/AI-Driven-Design-Shit-Database/mac.png)
 
@@ -45,6 +45,8 @@ docker run -d --name clickhouse-server \
 ```
 
 ## 准备底层数据
+
+![image](/image/post/AI-Driven-Design-Shit-Database/image.png)
 
 ### 准备提示词，蒸馏回答
 
@@ -197,14 +199,12 @@ shit方法实现对click house 数据库表shit.toilet_log 的写入
 docker compose up --build
 ```
 
-
 ## 设计灵感
 
 设计的灵感来自于我过往的经历。一位商人曾经说过，如果生活给了你一个柠檬，你应该把它榨成汁，然后喝下去。
 那么化用这一种思维模式，如果有人在你的头上拉屎，你应该把他们记录下来，提取里面的关键性信息，找到一个适当的时机，再充分利用。
 
-
-## todo
+## TODO
 
 可视化暂时用  [tabix](http://dash.tabix.io/dashboard) 分析了，也可以写几个接口，把上面的sql 拿来用，导出一个周报/月报，但我懒得搞了。
 
