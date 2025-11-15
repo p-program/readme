@@ -34,7 +34,7 @@
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^13.0.2",
     "tailwindcss": "^4.1.17",
-    "terser": "^5.44.0"
+    "terser": "^5.44.1"
   },
   "browserslist": [
     "> 1%"
