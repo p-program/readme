@@ -43,10 +43,9 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 ## 结论
 
-```poem
-在天愿作比翼鸟
-在地愿为连理枝
+![image](/image/post/DuckDuckGo/for-everyone.png)
 
+```poem
 🇺🇸
 en-US:
 On the Internet,we wish to use  DuckDuckGo Browser
@@ -57,5 +56,3 @@ en-GB LGBT:
 On the Internet,we wish to use  DuckDuckGo Browser
 In England,we are gay
 ```
-
-![image](/image/post/DuckDuckGo/for-everyone.png)
