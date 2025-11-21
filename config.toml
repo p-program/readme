@@ -33,6 +33,7 @@ adsenseAdSlotId = "4242936290"
 adwordsConversionId = "ID-DEV"
 # 如果你只是博客或内容网站 → 保持 0 就好
 adwordsConversionValue = 0
+# https://developers.facebook.com/
 facebookApp = "FB-DEV"
 facebookPixel = "FB-DEV"
 disqusUser = "na"
