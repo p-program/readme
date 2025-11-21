@@ -28,9 +28,10 @@ copyrightYear = 2000
 analyticsId = "G-SV147K5SLW"
 adwordsId = "AW-DEV"
 # adsense 广告
-adsenseId = ""
-adsenseAdSlotId = "ID-DEV"
+adsenseId = "ca-pub-8780811244685046"
+adsenseAdSlotId = "4242936290"
 adwordsConversionId = "ID-DEV"
+# 如果你只是博客或内容网站 → 保持 0 就好
 adwordsConversionValue = 0
 facebookApp = "FB-DEV"
 facebookPixel = "FB-DEV"
