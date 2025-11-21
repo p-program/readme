@@ -39,5 +39,7 @@
   "browserslist": [
     "> 1%"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "glob": "^11.1.0"
+  }
 }
