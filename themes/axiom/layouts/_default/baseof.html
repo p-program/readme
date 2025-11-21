@@ -45,6 +45,7 @@
 
 <body>
   {{ partial "header" . }}
+    {{ partial "language-switcher.html" . }}
   {{- block "main" . }}{{ end -}}
   {{- partial "footer" . }}
   {{- partial "scripts-foot" . }}
