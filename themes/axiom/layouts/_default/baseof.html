@@ -22,9 +22,15 @@
       const browserLang = navigator.language || navigator.userLanguage;
       const lang = browserLang.toLowerCase().startsWith("zh") ? "zh" : "en-us";
 
-      // 如果不同语言对应不同子路径：/zh/xxx /en/xxx
+      // 如果用户已经在特定语言页面（如 /en-us/...），则不要强制跳转
+      const path = window.location.pathname;
+      if (path.startsWith("/zh/") || path.startsWith("/en-us/")) {
+        return;  // 用户主动访问，不自动跳转
+      }
+
+      // 自动跳转仅在根目录或没有语言前缀时执行
       if (lang !== currentLang) {
-        const url = window.location.pathname.replace(`/${currentLang}/`, `/${lang}/`);
+        const url = path.replace(`/${currentLang}/`, `/${lang}/`);
         window.location.href = url;
       }
     })();
