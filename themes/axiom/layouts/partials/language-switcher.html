@@ -1,0 +1,22 @@
+<div class="language-switcher">
+    <span>{{ .Site.Language.LanguageName }}</span>
+    {{ range .Translations }}
+    <a href="{{ .RelPermalink }}">{{ .Site.Language.LanguageName }}</a>
+    {{ end }}
+</div>
+<style>
+    .language-switcher a {
+        margin-left: 8px;
+        text-decoration: none;
+        padding: 3px 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .language-switcher span {
+        padding: 3px 8px;
+        border: 1px solid #666;
+        border-radius: 4px;
+        background: #eee;
+    }
+</style>

@@ -3,6 +3,7 @@
 {{- $imgAppIcon := partial "cdn-src" (dict "Site" $.Site "Page" . "src" .Site.Params.image.icon1To1) -}}
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -12,22 +13,41 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ $imgFavIconAlt }}">
   <link rel="icon" type="image/x-icon" href="{{ $imgFavIconIco }}">
   <link rel="apple-touch-icon" href="{{ $imgAppIcon }}">
+  <script>
+    (function () {
+      // 当前页面语言（Hugo 会自动注入）
+      const currentLang = "{{ .Site.Language.Lang }}";
+
+      // 浏览器首选语言（例如 zh-CN / en-US）
+      const browserLang = navigator.language || navigator.userLanguage;
+      const lang = browserLang.toLowerCase().startsWith("zh") ? "zh" : "en-us";
+
+      // 如果不同语言对应不同子路径：/zh/xxx /en/xxx
+      if (lang !== currentLang) {
+        const url = window.location.pathname.replace(`/${currentLang}/`, `/${lang}/`);
+        window.location.href = url;
+      }
+    })();
+  </script>
 
   {{- with .Permalink }}
   <link rel="canonical" href="{{ . }}">
   {{- end }}
   {{- range .AlternativeOutputFormats }}
-  {{ printf `<link rel="%s" type="%s" href="%s" hreflang="%s"/>` .Rel .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" hreflang="%s" />` .Rel .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
   {{- end }}
   {{ partial "styles-app" . }}
   {{- partial "styles-type" . }}
   {{- partial "structured-data" . }}
   {{- partial "scripts-head" . }}
 </head>
+
 <body>
   {{ partial "header" . }}
   {{- block "main" . }}{{ end -}}
   {{- partial "footer" . }}
   {{- partial "scripts-foot" . }}
 </body>
+
 </html>
