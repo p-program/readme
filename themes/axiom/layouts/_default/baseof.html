@@ -9,6 +9,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="robots" content="noodp,noydir">
   <meta name="pinterest" content="nopin">
+{{- if .Site.Params.services.adsenseId }}
+  <meta name="google-adsense-account" content="{{ .Site.Params.services.adsenseId }}">
+{{- end }}
 
   <link rel="icon" type="image/png" sizes="32x32" href="{{ $imgFavIconAlt }}">
   <link rel="icon" type="image/x-icon" href="{{ $imgFavIconIco }}">
