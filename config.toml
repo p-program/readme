@@ -5,6 +5,7 @@ title = "Bullshit Program"
 languageCode = "zh"
 defaultContentLanguage = "zh"
 theme = "axiom"
+defaultContentLanguageInSubdir = true
 
 canonifyURLs = false
 rssLimit = 100
