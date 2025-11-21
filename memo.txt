@@ -1,0 +1,4 @@
+✅ 哪些语言需要设置 hasCJKLanguage = true？
+	•	zh / zh-cn / zh-hans / zh-hant
+	•	ja (日本語)
+	•	ko (한국어)
