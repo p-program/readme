@@ -9,7 +9,7 @@
 
 ## new post
 
-    post='Cloud-Native-Development-Best-Practices';hugo new content/post/$post.md
+    post='Chrome-Is-Dead';hugo new content/post/$post.md
     # edit latest *md file in the post directory
     
 ## architecture
