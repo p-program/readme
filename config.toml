@@ -2,8 +2,8 @@ baseURL = "https://bullshitprogram.com"
 
 
 title = "Bullshit Program"
-languageCode = "zh"
-defaultContentLanguage = "zh"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
 theme = "axiom"
 defaultContentLanguageInSubdir = true
 
