@@ -7,8 +7,6 @@ subtitle: "R IS DEAD!!!S IS DEAD!!!A IS DEAD!!!RSA IS DEAD!!!"
 cover: "image/post/P=NP/p=np.png"
 ---
 
-[English Version](https://medium.com/@zeusro/p-np-45d6766dd2e6)
-
 ## 数学证明
 
 XYZ 空间是n维空间里面的特殊情况(t=0)。
@@ -78,8 +76,5 @@ XYZ 空间是n维空间里面的特殊情况(t=0)。
 O(n)的问题，最终降维成O(1)解决。
 
 可以看到，无论多难的问题，其实都有一个前提和“线索”。只要找到线索，就能解题。
-
-I think I have proved P=NP problem from math.
-Other 20%,time will tell.
 
     宇宙内事乃己分内事，己分内事乃宇宙内事
