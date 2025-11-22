@@ -1091,13 +1091,14 @@ pre {
 }
 
 :not(pre)>code {
-    font-size: .900rem;
+    font-size: 1.100rem;
     padding-left: .15rem;
     padding-right: .15rem;
-    vertical-align: text-bottom;
     white-space: normal;
     border-radius: .125rem;
-    color: #b314e1;
+    background: rgba(0, 0, 0, 0.05);
+    vertical-align:-0.051rem;
+    color: #babf1e;
 }
 
 .token.cdata,
