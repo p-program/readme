@@ -23,7 +23,9 @@
 
       // 浏览器首选语言（例如 zh-CN / en-US）
       const browserLang = navigator.language || navigator.userLanguage;
-      const lang = browserLang.toLowerCase().startsWith("zh") ? "zh" : "en-us";
+      console.log("Detected browser language:", browserLang);
+      // const lang = browserLang.toLowerCase().startsWith("zh") ? "zh" : "en-us";
+      const lang = browserLang.toLowerCase().startsWith("zh") ? "en-us" :"zh" ;
 
       // 如果用户已经在特定语言页面（如 /en-us/...），则不要强制跳转
       const path = window.location.pathname;
