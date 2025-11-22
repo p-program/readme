@@ -162,4 +162,8 @@ weight = 2
     languageName = "US English"
     languageCode = "en"
     hasCJKLanguage = true
-
+  [languages.jp]
+    weight = 3
+    languageName = "日本語"
+    languageCode = "jp"
+    hasCJKLanguage = true
