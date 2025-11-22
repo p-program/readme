@@ -9,9 +9,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="robots" content="noodp,noydir">
   <meta name="pinterest" content="nopin">
-{{- if .Site.Params.services.adsenseId }}
+  {{- if .Site.Params.services.adsenseId }}
   <meta name="google-adsense-account" content="{{ .Site.Params.services.adsenseId }}">
-{{- end }}
+  {{- end }}
 
   <link rel="icon" type="image/png" sizes="32x32" href="{{ $imgFavIconAlt }}">
   <link rel="icon" type="image/x-icon" href="{{ $imgFavIconIco }}">
@@ -24,18 +24,26 @@
       // 浏览器首选语言（例如 zh-CN / en-US）
       const browserLang = navigator.language || navigator.userLanguage;
       console.log("Detected browser language:", browserLang);
-      // const lang = browserLang.toLowerCase().startsWith("zh") ? "zh" : "en-us";
-      const lang = browserLang.toLowerCase().startsWith("zh") ? "en-us" :"zh" ;
-
+      var lang = browserLang.toLowerCase();
+      // const lang = browserLang.toLowerCase().startsWith("zh") ? "en-us" :"zh" ;
       // 如果用户已经在特定语言页面（如 /en-us/...），则不要强制跳转
       const path = window.location.pathname;
       console.log("Current path:", path);
-      if (path.startsWith("/zh/") || path.startsWith("/en-us/")) {
+      if (lang.startsWith("en")) {
+        lang = "en-us";
+      } else if (lang.startsWith("jp")) {
+        lang = "jp";
+      } else {
+        lang = "zh";
+      }
+
+      if (path.startsWith("/zh/") || path.startsWith("/en-us/")|| path.startsWith("/jp/")) {
         return;  // 用户主动访问，不自动跳转
       }
 
       // 自动跳转仅在根目录或没有语言前缀时执行
       if (lang !== currentLang) {
+        //按照lang值强制跳转，兜底策略是中文
         const url = path.replace(`/${currentLang}/`, `/${lang}/`);
         window.location.href = url;
       }
