@@ -153,12 +153,12 @@ weight = 2
 
 [languages]
   [languages.zh]
-    weight = 1
+    weight = 2
     languageName = "中文"
     languageCode = "zh"
     hasCJKLanguage = true
   [languages.en-us]
-    weight = 2
+    weight = 1
     languageName = "US English"
     languageCode = "en"
     hasCJKLanguage = true
