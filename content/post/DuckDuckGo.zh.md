@@ -35,10 +35,10 @@ cover: "image/post/DuckDuckGo/duck.png"
 
 **Double  Duck**：羊城鸭王
 
+## 两情若在长久时 又岂在朝朝暮暮
+
 <iframe width="700" height="615"
   src="https://www.bilibili.com/video/BV19A4y1Z7Ba"
   frameborder="0"
   allowfullscreen>
 </iframe>
-
-## 两情若在长久时 又岂在朝朝暮暮

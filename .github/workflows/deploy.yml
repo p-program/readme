@@ -3,7 +3,7 @@ name: Build & Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - master      # 如果你的主分支是 master / main / mster，调整为正确的分支名
+      - master      # 如果你的主分支是 master / main，调整为正确的分支名
   # 保留手动触发
   workflow_dispatch:
 
