@@ -1,11 +1,10 @@
 name: Build & Deploy Hugo site to GitHub Pages
 
-# 触发条件：当 push 到指定的branches，或手动触发
 on:
   push:
     branches:
-      - mster          # 如你的主分支不是 main，请改为实际分支名
-  # 增加手动触发选项
+      - master      # 如果你的主分支是 master / main / mster，调整为正确的分支名
+  # 保留手动触发
   workflow_dispatch:
 
 permissions:
@@ -21,9 +20,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: '0.151.0'        # 可根据你自己的 Hugo 版本调整
-      NODE_VERSION: '22.x'           # 若主题／构建用到 Node，可保留；否则可删
-      TZ: 'Asia/Taipei'              # 时区设为台湾时区
+      HUGO_VERSION: '0.151.0'
+      NODE_VERSION: '22.x'
+      TZ: 'Asia/Taipei'
     steps:
       - name: Checkout source
         uses: actions/checkout@v5
@@ -61,7 +60,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./public   # 默认 Hugo 输出目录；如你改过 publishDir，请改这一行
+          path: ./public
 
   deploy:
     needs: build
