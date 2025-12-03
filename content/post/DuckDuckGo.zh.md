@@ -3,15 +3,15 @@ date: 2025-07-06T23:00:00Z
 lastmod: 2025-07-06T23:00:00Z
 author: Zeusro
 title: "一鸭通行"
-subtitle: "Thanks to DuckDuckGo Browser"
+subtitle: "岭南第二鸭王史诗巨作"
 cover: "image/post/DuckDuckGo/duck.png"
 ---
-
-## 摘要
 
 为了小黄鸭能尽快找到他的 `young and beautiful` 富婆，需要优化一下这个鸭子入鸭场的预约程序。
 
 ## 引言
+
+![image](/image/post/DuckDuckGo/for-everyone.png)
 
 孙中山先生在1924年改组国民党的时候说过：“**联合世界上以平等待我之民族**。”我个人认为，对于没有啄鸭记录，并且喜欢吃五羊牌雪糕的无业游民Zeusro，也应该提供适当便利。
 
@@ -41,18 +41,4 @@ cover: "image/post/DuckDuckGo/duck.png"
   allowfullscreen>
 </iframe>
 
-## 结论
-
-![image](/image/post/DuckDuckGo/for-everyone.png)
-
-```poem
-🇺🇸
-en-US:
-On the Internet,we wish to use  DuckDuckGo Browser
-In America, we use tadpoles as betrothal gifts
-
-🇬🇧
-en-GB LGBT:
-On the Internet,we wish to use  DuckDuckGo Browser
-In England,we are gay
-```
+## 两情若在长久时 又岂在朝朝暮暮
