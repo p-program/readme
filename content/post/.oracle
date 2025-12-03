@@ -1,9 +1,8 @@
 保留原来的markdown标签，Chrome-Is-Dead.en-us.md 全文翻译成英文，直接覆盖源文件。
 将科斯定理翻译为Coase Theorem，“服务即API”翻译为Service As API，“上网行为路径”翻译为 behavior flow。
-
 保留原来的markdown标签，Chrome-Is-Dead.jp.md 全文翻译成英文，直接覆盖源文件。
 将科斯定理翻译为Coase Theorem，“服务即API”翻译为Service As API，“上网行为路径”翻译为 behavior flow。
-
-
 保留“攻殻機動隊 SAC_2045”、“江崎プリン”，Code-1A84.en-us.md全文翻译成英文，直接覆盖源文件。
+保留参考链接后面的内容，日文和英文词汇，技术词汇，代码块里面的内容（注释和中文可以翻译），将文件 go-java-c_jp.md 翻译成目标语言。如果文件名是*en.md则目标语言是英文；文件名是*jp.md则目标语言是日文，以此类推。
+保留参考链接后面的内容，日文和英文词汇，技术词汇，代码块里面的内容（prompt，注释和中文可以翻译），将文件 go-java-c_jp.md 翻译成目标语言。如果文件名是*en.md则目标语言是英文；文件名是*jp.md则目标语言是日文，以此类推。
 

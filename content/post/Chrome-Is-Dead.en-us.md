@@ -95,7 +95,7 @@ Quark client is equivalent to an `All AI in one` AI toolbox. Coincidentally, it 
 
 ![image](/image/post/Chrome-Is-Dead/quark.png)
 
-However, the academic search is somewhat ridiculous. When I searched "Peng-style equilibrium," a bunch of fabricated results appeared, and it often asked me to pay.
+However, the academic search is somewhat ridiculous. When I searched "P equilibrium," a bunch of fabricated results appeared, and it often asked me to pay.
 
 ![image](/image/post/Chrome-Is-Dead/vip.png)
 

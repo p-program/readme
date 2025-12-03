@@ -1,6 +1,7 @@
 ---
 author: "Zeusro"
 title: "The Seed Of Robot —— Intelligent API Gateway"
+subtitle: "第一名是MVP，第二名啥也不是"
 date: 2020-03-21T20:56:37+08:00
 feature: "image/post/The-Seed-Of-Robot/one-piece.jpg"
 ---
@@ -23,21 +24,19 @@ feature: "image/post/The-Seed-Of-Robot/one-piece.jpg"
 
 按照 [The-Seed](https://github.com/p-program/The-Seed) 理念设计的机器人，架构应当是这样的：
 
-Input:
-
+`Input`:
 手机输入，键盘输入，语音输入，意念输入
 
-Process:
-
+`Process`:
 程序的处理逻辑
 
-Output:
-
+`Output`:
 程序的应答
 
-Influence:
-
+`Influence`:
 程序的应答对我们的影响
+
+有些时候，`Input`和`Output`是同一个，因为有时候会将前面的`Output`作为新的`Input`条件，相当于控制循环理论里面的递归解题模型。
 
 ## 现行框架下的解
 
@@ -69,7 +68,7 @@ Influence:
 其实答案也非常的简单。“继续分割这个世界，直至不能再分割”。问题不能解决，那就把它再分解，再特殊化一点。
 
 举个例子。我们用浏览器访问 [阿里云的容器服务Kubernetes版](https://help.aliyun.com/product/85222.html)，
-实际上我们已经进入了 `Kubernetes` 这一个世界，我们所问的问题，只会跟 `Kubernetes` 这个产品相关联。
+实际上我们已经进入了 `Kubernetes` 这一个局部世界，我们所问的问题，只会跟 `Kubernetes` 这个产品相关联。
 
 所以，按照的现行技术框架下，这个问答机器人是这样的：
 
@@ -89,31 +88,18 @@ Influence:
 
 最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机，一个机器人。
 
-等我有心情了，再开发出来这个钉钉机器人吧，哈哈。
-
 ## 理想架构
 
 手机输入，键盘输入，语音输入，意念输入
---> 
+`-->`
 微服务查找（计算资源即微服务，计算资源包括人和计算机）
--->
+`-->`
 调用计算资源完成计算
 
 `-->` 表示数据的流动，是一种世界通讯的协议。
 
 微服务查找是一个拓展的概念，查找的结果基于搜索因子呈现，基于质量排序。比如，海贼王临死前留下了 `One Piece`，只留给找到它的人。各路豪杰纷纷响应，世界由此进入大航海时代。
 
+![image](/image/post/The-Seed-Of-Robot/one-piece.jpg)
+
 调用微服务不一定只调用一个，我们可以并发地调用多个微服务，`One Piece` 只留给最快找到它的人。现在的高德打车就是这么做的，我们可以发起多个平台的打车，单子只留给最快响应并接单的人。
-
-![](/image/post/The-Seed-Of-Robot/one-piece.jpg)
-
-## TODO
-
-1. 表达能力更强的程序语言
-1. 新的世界级通讯协议
-1. VR技术
-
-## 参考链接
-
-1. http://www.yinwang.org/blog-cn/2018/04/13/computer-science
-1. https://baike.baidu.com/item/%E5%86%AF%C2%B7%E8%AF%BA%E4%BE%9D%E6%9B%BC%E7%BB%93%E6%9E%84

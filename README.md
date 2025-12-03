@@ -2,17 +2,22 @@
 
 ## clone
 
+```bash
     brew install hugo
     git clone git@github.com:p-program/readme.git
     git clone git@github.com:p-program/p-program.github.io.git
-    
+ ```
 
 ## new post
 
+```bash
     post='Chrome-Is-Dead';hugo new content/post/$post.md
     # edit latest *md file in the post directory
-    
+```
+
 ## architecture
+
+hugo
 
 ### themes
 
