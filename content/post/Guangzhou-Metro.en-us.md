@@ -1,6 +1,7 @@
 ---
 author: "Zeusro"
-title: "Guangzhou Metro is a Beautiful Serverless Real‑Time Data Stream Processing System"
+title: "Serverless Guangzhou Metro"
+subtitle: "Beautiful Real‑Time Data Stream Processing System"
 date: 2020-09-02T10:04:04+08:00
 draft: false
 feature: "image/post/Guangzhou-Metro/guangzhou.png"
