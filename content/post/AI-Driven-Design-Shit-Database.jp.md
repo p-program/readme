@@ -7,6 +7,8 @@ subtitle: "AIがあれば、もう脳を使う必要はない"
 feature: "image/post/AI-Driven-Design-Shit-Database/af945e428bf8442aa61b6cd017ec587c.png"
 ---
 
+{{< toc >}}
+
 AIを使って個人のうんちデータを記録・分析し、健康管理に役立てるプロジェクト：
 
 ![image](/image/post/AI-Driven-Design-Shit-Database/mac.png)

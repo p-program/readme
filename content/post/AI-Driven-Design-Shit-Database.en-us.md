@@ -7,6 +7,8 @@ subtitle: "My boss will never complain that I don't bring my brain"
 feature: "image/post/AI-Driven-Design-Shit-Database/af945e428bf8442aa61b6cd017ec587c.png"
 ---
 
+{{< toc >}}
+
 A project that uses AI to record and analyze personal poop data for health monitoring:
 
 ![image](/image/post/AI-Driven-Design-Shit-Database/mac.png)

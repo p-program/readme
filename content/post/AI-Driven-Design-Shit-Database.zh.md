@@ -7,6 +7,7 @@ subtitle: "AIがあれば、もう脳を使う必要はない"
 feature: "image/post/AI-Driven-Design-Shit-Database/af945e428bf8442aa61b6cd017ec587c.png"
 ---
 
+{{< toc >}}
 
 应用AI驱动开发记录个人拉屎数据，关注个人拉屎健康：
 
