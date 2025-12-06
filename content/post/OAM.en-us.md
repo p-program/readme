@@ -3,9 +3,11 @@ date: 2025-04-28T14:00:00Z
 lastmod: 2025-04-28T14:00:00Z
 author: Zeusro
 title: "OAM(Open AI Model)"
-subtitle: "OAM vs OAM"
+subtitle: "Even if I could give up my king, I could never give up my son."
 # feature: "image/post/OAM/oam.png"
 cover: "image/post/OAM/oam.png"
+aliases:
+    - /oam/
 ---
 
 ## Spec

@@ -5,6 +5,8 @@ subtitle: Next Generation Operating System
 date: 2020-10-20T19:24:49+08:00
 draft: false
 feature: "image/post/One-Open-Operating-System/0-cover.png"
+aliases:
+    - /one-open-operating-system/
 ---
 
 Current operating system (IOS,Android,Windows,Mac) is not exactly what I want,so I decide to rebuild another operating system.
