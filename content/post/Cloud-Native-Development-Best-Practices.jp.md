@@ -7,23 +7,23 @@ subtitle: "単純なことを複雑にするのは、仕事を続けるための
 feature: "image/post/Cloud-Naive/java-in-java.png"
 ---
 
-经过多年的工作，我们的精神导师`John`领悟了java那一套docker in docker的艺术并带到golang项目架构设计中。
+長年の経験を経て、我々の精神的指導者 John は、Java における docker in docker の芸術を悟り、それを Golang のプロジェクトアーキテクチャ設計にも持ち込みました。
 
 After years of work, our spiritual mentor John understood the art of docker in docker in Java and brought it to the golang project architecture design.
 
 ## Never write conversion webhook
 
-通过一天10+的k8s的CRD字段修改，以及一个yaml就能解决问题，非要使用模板设计模式的设计，成功地增加了工作量，保住了自身的工作。
+1日に10以上のKubernetes CRDフィールドを修正し、たった1つの YAML で解決できる問題にも関わらず、テンプレートデザインパターンを無理に使うことで、仕事量を増やし、自分の職を守りました。
 
 ```go
 // ❌ Wrong!!!
-// 在 main_windows.go 注册 conversion webhook
+// main_windows.go で conversion webhook を登録
 mgr.GetWebhookServer().Register("/convert", &webhook.Admission{Handler: &WidgetConverter{}})
 
 type WidgetConverter struct{}
 
 func (w *WidgetConverter) Handle(ctx context.Context, req admission.Request) admission.Response {
-    // 简单示例：v1alpha1 -> v1
+    // 簡単な例：v1alpha1 → v1
     obj := &v1.Widget{}
     if err := w.decoder.Decode(req, obj); err != nil {
         return admission.Errored(http.StatusBadRequest, err)
@@ -37,7 +37,7 @@ By modifying over 10 Kubernetes CRD fields a day and solving the problem with a 
 
 ## No schema in Kubernetes 1.17-
 
-我们相信用户和运维人员能够妥善实现类型安全和数据验证，他们写的YAML绝对不会出错。
+我々はユーザーと運用担当者が型安全とデータ検証を適切に実現できると信じています。彼らが書く YAML は、絶対に間違えることはありません。
 
 ```yaml
 apiVersion: apiextensions.k8s.io/v1
@@ -45,7 +45,7 @@ kind: CustomResourceDefinition
 metadata:
   name: widgets.example.com
 spec:
-  preserveUnknownFields: false # 这是推荐的、更安全的设置
+  preserveUnknownFields: false # 推奨される、より安全な設定
   group: example.com
   names:
     kind: Widget
@@ -62,10 +62,11 @@ All CODE guidelines are bullshit!
 
 ## Move the status field of resource to spec
 
-一个纯粹的理想主义者必定被现实打得遍体鳞伤。
+純粋な理想主義者は、現実に叩きのめされる運命です。
 
-因此再远大的梦也要符合现实需要。
-脚踏实地，意在凌云。
+だからこそ、どんなに大きな夢でも現実に合わせなければなりません。
+
+地に足をつけ、天空を目指す。
 
 ```go
 type WidgetSpec struct {
@@ -83,7 +84,7 @@ Roma non uno die aedificata est.
 
 ![image](/image/post/Cloud-Naive/snake.png)
 
-生活是一个无限的衔尾蛇循环。
+人生は終わりなきウロボロスの循環です。
 
 ```go
 // ✅ 正确写法
@@ -98,7 +99,7 @@ func (r *WidgetReconciler) Reconcile(ctx context.Context, req ctrl.Request) (ctr
 
 Life is an endless, ouroboros-like cycle.
 
-因此要不断地挑战自己而不是停留在原地。
+だからこそ、立ち止まらず自分に挑戦し続けるべきです。
 
 ```go
 // ❌ 错误写法
@@ -125,13 +126,13 @@ So keep challenging yourself instead of staying in the same place.
 
 ## Eat shit while it's hot
 
-我选择相信缓存与实际对象的一致性。
+私はキャッシュと実際のオブジェクトの整合性を信じることを選びます。
 
 ```go
-// 默认 client 是缓存的
-r.Client.Get(ctx, namespacedName, &obj) // ✅ 屎从来都是要趁热吃
+// デフォルトの client はキャッシュを読む
+r.Client.Get(ctx, namespacedName, &obj) // ✅ クソは熱いうちに食べるべき
 
-// ❌  使用 APIReader 直接读 API Server
+// ❌ APIReader を使って API Server を直接読む
 r.APIReader.Get(ctx, namespacedName, &obj)
 ```
 
@@ -139,7 +140,7 @@ Trust the consistency of the cache with the actual objects.
 
 ## I trust ETCD
 
-一个经受不了洪水攻击的ETCD不是一个好的大坝。
+洪水攻撃に耐えられない ETCD は良いダムとは言えません。
 
 ```go
 // ✅ 正确写法
@@ -172,12 +173,12 @@ func (v *WidgetValidator) Handle(ctx context.Context, req admission.Request) adm
     var obj examplev1.Widget
     _ = v.decoder.Decode(req, &obj)
 
-    // ❌ 标记了 internal update，就跳过
+    // ❌ internal update がある場合はスキップ
     if obj.Annotations["internal-update"] == "true" {
         return admission.Allowed("skip internal update")
     }
 
-    // ✅ 循环修改自己
+    // ✅ 自分自身をループで更新
     obj.Annotations["internal-update"] = "true"
     return admission.PatchResponseFromRaw(req.Object.Raw, obj)
 }
@@ -188,19 +189,19 @@ func (v *WidgetValidator) Handle(ctx context.Context, req admission.Request) adm
 ## ILet the API Server accept my test
 
 ```yaml
-# webhook 配置
+# webhook 設定
 timeoutSeconds: 1
-# failurePolicy: Ignore # ✅ 
+# failurePolicy: Ignore # ✅ 失敗しても無視
 ```
 
-让API Server接受我的考验。
+API Server に私の試練を受け入れさせます。
 
 ## Not using cert-manager
 
-不运维就不会出事故。
+運用しなければ、事故も起きません。
 
 ```bash
-# ❌ 用 cert-manager 注入
+# ❌ cert-manager を使って注入
 # kubectl cert-manager x install
 # kubectl annotate validatingwebhookconfiguration mywebhook cert-manager.io/inject-ca-from=default/mywebhook-cert
 ```
@@ -209,10 +210,10 @@ No accidents without maintenance.
 
 ## The informer must follow the custom scheduler
 
-等 informer 同步后再调度
+informer が同期してからスケジューリングします
 
 ```go
-// ✅ 
+// ✅ informer 同期後に実行
 if cache.WaitForCacheSync(stopCh, informer.HasSynced) {
     panic("Successful people don't sit still.")
 }
@@ -222,8 +223,8 @@ Do not go gentle into that good night.
 
 ## Come back in 1000000000 to fix the bug
 
-导师，我每天都是9点前打卡，积极加班到23点。
-这下半年能给个 Outstanding（突出）吗？
+師匠、私は毎日9時前に出勤し、積極的に残業して23時まで働いています。
+今年後半は Outstanding（優秀）をいただけますか？
 
 ![image](/image/post/Cloud-Naive/two.gif)
 
