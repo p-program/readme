@@ -10,16 +10,19 @@
 
   {{ if .IsTranslated }}
   <ul>
-  {{ range .Translations }}
+    {{ range .Translations }}
     <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
-  {{ end }}
+    {{ end }}
   </ul>
-{{ end }}
+  {{ end }}
 
   <div class="mt-8 mx-4 md:mx-8">
     <div class="mx-auto w-full max-w-2xlp">
       <article class="cdata">
         <h1>{{ .Title }}</h1>
+        <aside class="toc">
+          {{ .TableOfContents }}
+        </aside>
         {{ .Content }}
       </article>
     </div>
