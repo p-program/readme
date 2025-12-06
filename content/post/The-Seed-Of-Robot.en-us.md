@@ -4,6 +4,8 @@ title: "The Seed Of Robot —— Intelligent API Gateway"
 subtitle: "NO.1 is MVP, NO.2 is NVP(no value player)"
 date: 2020-03-21T20:56:37+08:00
 feature: "image/post/The-Seed-Of-Robot/one-piece.jpg"
+aliases:
+    - /the-seed-of-robot/
 ---
 
 ## Defects of the Von Neumann Architecture
