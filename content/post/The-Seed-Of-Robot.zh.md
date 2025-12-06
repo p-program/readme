@@ -38,6 +38,8 @@ feature: "image/post/The-Seed-Of-Robot/one-piece.jpg"
 
 有些时候，`Input`和`Output`是同一个，因为有时候会将前面的`Output`作为新的`Input`条件，相当于控制循环理论里面的递归解题模型。
 
+机器人的设计遵循一个`Lazy`原则——只要没有指令，就不动。这相当于一种人类生命活动的辅助。
+
 ## 现行框架下的解
 
 我们就只挑 `Process` 来讲吧。按照[世界的定义](https://github.com/p-program/The-Seed/blob/master/world.md)，如果世界是不可解的，那么我们把分解为一个可解的世界就行。
@@ -86,7 +88,7 @@ feature: "image/post/The-Seed-Of-Robot/one-piece.jpg"
 
 `You can you up.No can't BB`。不要妄想制造一台万能机器，先解决能解决的问题就行。时机成熟之后再替换。
 
-最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机，一个机器人。
+最终AI的客户端将会得到进化，他现在只是一个web接口，但是他可以升级成一个客户端，一个app，甚至一台手机，一个智能音箱。
 
 ## 理想架构
 
