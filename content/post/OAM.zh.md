@@ -31,7 +31,7 @@ Open AI Model [OAM] 带来了简单而暴力的定义AI的标准。
 
 ![image](/image/post/OAM/suo.png)
 
-## 雙兔傍地走，安能辨我是雄雌
+雙兔傍地走，安能辨我是雄雌
 
 ## 参考链接
 

@@ -7,6 +7,8 @@ subtitle: "単純なことを複雑にするのは、仕事を続けるための
 feature: "image/post/Cloud-Naive/java-in-java.png"
 ---
 
+{{ .TableOfContents }}
+
 長年の経験を経て、我々の精神的指導者 John は、Java における docker in docker の芸術を悟り、それを Golang のプロジェクトアーキテクチャ設計にも持ち込みました。
 
 After years of work, our spiritual mentor John understood the art of docker in docker in Java and brought it to the golang project architecture design.
