@@ -104,4 +104,3 @@ Microservice lookup is an extended concept: results are presented based on searc
 ![image](/image/post/The-Seed-Of-Robot/one-piece.jpg)
 
 Calling microservices is not limited to a single call — we can call multiple microservices in parallel. `One Piece` belongs only to the first person who finds it. This is how current ride-hailing works: multiple platforms are queried simultaneously, and the ride request is given only to the fastest responder.
----
