@@ -123,6 +123,9 @@ autoHeadingID = false
 codeFences = false
 noClasses = false
 tabWidth = 2
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
 
 [menu]
 [[menu.main]]
