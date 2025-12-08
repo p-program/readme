@@ -46,7 +46,9 @@ The basic model is not right,the following content is completely wrong.
 
 In real DevOps, it’s about action—JUST DO IT!
 
-**雙兔傍地走，安能辨我是雄雌**
+Brothers may share the blood they bear,
+But never shall a crown be shared.
+---
 
 ## Link
 
