@@ -3,11 +3,12 @@ date: 2025-10-24T16:00:00Z
 lastmod: 2025-10-24T16:00:00Z
 author: Zeusro
 title: "Cloud Naive Best Practices"
-subtitle: "単純なことを複雑にするのは、仕事を続けるための芸術だ"
+subtitle: "简单问题复杂化是留住工作的不二法门"
 feature: "image/post/Cloud-Naive/java-in-java.png"
 aliases:
     - /cloud-native-development-best-practices/
 ---
+
 
 经过多年的工作，我们的精神导师`John`领悟了java那一套docker in docker的艺术并带到golang项目架构设计中。
 
@@ -237,5 +238,3 @@ if !isReady {
     return ctrl.Result{RequeueAfter: 1000000000 * time.Year}, nil
 }
 ```
-
-吾志所向，一往無前！
