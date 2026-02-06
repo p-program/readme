@@ -1,6 +1,5 @@
----
-date: 2025-02-06T00:00:00Z
-lastmod: 2025-02-06T00:00:00Z
+date: 2026-02-06T13:24:24Z
+lastmod: 2026-02-06T13:24:24Z
 author: Zeusro
 title: "AI混合编程"
 subtitle: "编程语言已死，AI当立"
