@@ -4,7 +4,7 @@ lastmod: 2026-02-06T13:24:24Z
 author: Zeusro
 title: "AIハイブリッドプログラミング"
 subtitle: "プログラミング言語は死に、AIが立つ"
-cover: "image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
+cover: "/image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
 ---
 
 2020年、AIを入口としてオペレーティングシステム全体を再構築する（[OOOS](https://www.bullshitprogram.com/en-us/one-open-operating-system/)）ことを全英文で提唱したとき、当時はAIを単なる「ゲートウェイ入口」として扱っており、AIプログラミングが従来の基礎プログラミングに与える次元を超えた打撃までは予想していなかった。
@@ -49,7 +49,7 @@ cursorで自分の[kube-killer](https://github.com/p-program/kube-killer)を仕�
 
 ## AIハイブリッドプログラミングモデル
 
-![AIハイブリッドプログラミングモデル](image/post/AI-Hybrid-Programming/ai-hybrid.drawio.png)
+![AIハイブリッドプログラミングモデル](/image/post/AI-Hybrid-Programming/ai-hybrid.drawio.png)
 
 `Service As API`と[時間系列メタプログラミング](https://www.zeusro.com/2026/02/06/Time-Series-Coding/)という構造を基に、`AIハイブリッドプログラミングモデル`を提唱する。
 
@@ -60,7 +60,7 @@ AIは下層データに対して閲覧権限のみを持ち、生成物は書き
 
 人間・AI・データの関係は`Auth`プロトコルに基づき、AIがデータを変更するには人間の同意が必要である。
 
-![deepseek mermaid](image/post/AI-Hybrid-Programming/deepseek_mermaid_20260206_0e1ce3.png)
+![deepseek mermaid](/image/post/AI-Hybrid-Programming/deepseek_mermaid_20260206_0e1ce3.png)
 
 「`ファイアウォール`」は「外敵の防御」とネットワークアクセス制限の役割を担う。AIがどのネットワークリソースに限定的にアクセスできるか（汚染・サプライチェーン毒入れを避ける）、AIが外部に公開できるAPIポートをどれにするかを決める。
 

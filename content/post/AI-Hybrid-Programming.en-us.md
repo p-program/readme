@@ -4,7 +4,7 @@ lastmod: 2026-02-06T13:24:24Z
 author: Zeusro
 title: "AI Hybrid Programming"
 subtitle: "Programming languages are dead, long live AI"
-cover: "image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
+cover: "/image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
 ---
 
 In 2020, when I proposed rebuilding the entire operating system with AI as the gateway ([OOOS](https://www.bullshitprogram.com/en-us/one-open-operating-system/)) in full English, I only treated AI as a "gateway entry" and did not foresee AI programming's dimensional strike against traditional foundational programming.
@@ -49,7 +49,7 @@ Humans need to reclaim their own agency and reject the programming cult of the "
 
 ## AI Hybrid Programming Model
 
-![AI Hybrid Programming Model](image/post/AI-Hybrid-Programming/ai-hybrid.drawio.png)
+![AI Hybrid Programming Model](/image/post/AI-Hybrid-Programming/ai-hybrid.drawio.png)
 
 Based on the structure of `Service As API` and [Time-Series Metaprogramming](https://www.zeusro.com/2026/02/06/Time-Series-Coding/), I propose the `AI Hybrid Programming Model`.
 
@@ -60,7 +60,7 @@ Only in small files at small scale can the `git` protocol be used temporarily. *
 
 The relationship between humans, AI, and data is governed by an `Auth` protocol; any change by AI to data must be approved by humans.
 
-![deepseek mermaid](image/post/AI-Hybrid-Programming/deepseek_mermaid_20260206_0e1ce3.png)
+![deepseek mermaid](/image/post/AI-Hybrid-Programming/deepseek_mermaid_20260206_0e1ce3.png)
 
 The "`firewall`" plays the role of "keeping out external threats" and restricting network access. It determines which network resources AI can access in a limited way (to avoid pollution and supply-chain poisoning) and which API ports AI can expose externally.
 

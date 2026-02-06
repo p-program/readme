@@ -4,7 +4,7 @@ lastmod: 2026-02-06T13:24:24Z
 author: Zeusro
 title: "AI混合编程"
 subtitle: "编程语言已死，AI当立"
-cover: "image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
+cover: "/image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
 ---
 
 在2020年，我以全英文写作的形式，提出以AI作为入口，重构整个操作系统（[OOOS](https://www.bullshitprogram.com/en-us/one-open-operating-system/)）时，当时只是把AI作为一种“网关入口”，并没有预料到AI编程对传统基础编程的降维打击。
@@ -49,7 +49,7 @@ cover: "image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
 
 ## AI混合编程模型
 
-![AI混合编程模型](image/post/AI-Hybrid-Programming/ai-hybrid.drawio.png)
+![AI混合编程模型](/image/post/AI-Hybrid-Programming/ai-hybrid.drawio.png)
 
 基于`Service As API`和[时间序列元编程](https://www.zeusro.com/2026/02/06/Time-Series-Coding/)这种结构，我提出`AI混合编程模型`。
 
@@ -60,7 +60,7 @@ AI对于底层数据只有查看的权限，生成的产物在写时复制（`co
 
 人类，AI和数据的关系基于`Auth`协议，AI修改数据必须经过人类同意。
 
-![deepseek mermaid](image/post/AI-Hybrid-Programming/deepseek_mermaid_20260206_0e1ce3.png)
+![deepseek mermaid](/image/post/AI-Hybrid-Programming/deepseek_mermaid_20260206_0e1ce3.png)
 
 而「`防火墙`」则承担了「抵御外敌」和限制网络访问的角色。它决定了AI可以有限访问哪些网络资源（避免被污染和供应链投毒），也决定了AI可以对外暴露的API端口。
 
