@@ -64,6 +64,17 @@ The relationship between humans, AI, and data is governed by an `Auth` protocol;
 
 The "`firewall`" plays the role of "keeping out external threats" and restricting network access. It determines which network resources AI can access in a limited way (to avoid pollution and supply-chain poisoning) and which API ports AI can expose externally.
 
+## AI, Data and Human Trias Politica
+
+AI: responsible for edge computing such as code generation.
+
+Database: responsible for storing data.
+
+Humans: responsible for managing data and reviewing AI-generated output.
+
+In the relationship among these three, humans must hold primacy. AI may be a resident agent, but it must be invoked passively by human will, and its effects must be limited to the sandbox.
+AI program operation must comply with existing human laws, regulations and ethics; if AI causes real-world physical impact, the user bears responsibility.
+
 ## References
 
 【1】
