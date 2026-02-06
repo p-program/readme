@@ -73,9 +73,9 @@ type = ""
 files = []
 
 [params.brand]
-domain = "example.com"
-email = "info@example.com"
-github = "example"
+domain = "www.bullshitprogram.com"
+email = "unccav@gmail.com"
+github = "p-program"
 facebook = "example"
 twitter = "example"
 instagram = "example"
@@ -154,6 +154,7 @@ name = "About"
 weight = 2
 
 
+# 多语言配置
 [languages]
   [languages.zh]
     weight = 2
