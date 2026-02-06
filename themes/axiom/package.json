@@ -32,7 +32,7 @@
     "del-cli": "^7.0.0",
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.1",
-    "postcss-nesting": "^13.0.2",
+    "postcss-nesting": "^14.0.0",
     "tailwindcss": "^4.1.17",
     "terser": "^5.44.1"
   },
