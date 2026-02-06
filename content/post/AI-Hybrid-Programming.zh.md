@@ -2,7 +2,7 @@
 date: 2026-02-06T13:24:24Z
 lastmod: 2026-02-06T13:24:24Z
 author: Zeusro
-title: "AI不是万能的许愿机"
+title: "后现代中AI，数据与人的三权分立"
 subtitle: "编程语言已死，AI当立"
 cover: "/image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
 ---
