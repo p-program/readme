@@ -2,7 +2,7 @@
 date: 2026-02-06T13:24:24Z
 lastmod: 2026-02-06T13:24:24Z
 author: Zeusro
-title: "AI Hybrid Programming"
+title: "AGI does not exist"
 subtitle: "Programming languages are dead, long live AI"
 cover: "/image/post/AI-Hybrid-Programming/rm-sow_bg_exe-pc.jpg"
 ---
