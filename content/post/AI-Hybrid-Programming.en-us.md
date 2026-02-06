@@ -28,7 +28,7 @@ After using `cursor` and `trae` in the second half of the year (`trae` is slower
 
 The current version (Version: 2.4.21) of `cursor` already has full authoring capability at the 100k-line project level. By the `80/20 rule`, 80% of projects are 100k-line piles of junk, so 99% of code basically no longer needs to be written by humans.
 
-After finishing my [kube-killer](https://github.com/p-program/kube-killer) with cursor, I fell into coding ED (`Coding ED`)—I had no desire to write any code at all.
+After finishing my [kube-killer](https://github.com/p-program/kube-killer) with cursor, I fell into `Coding ED`—I had no desire to write any code at all.
 
 Every idea materialized in an instant, and I didn't even need to spend time learning various business concepts. Over these five years, as the "Crow Seldon" of the Chinese internet, I have already prophesied the decline of several industries.
 With the rise of `Vibe coding`, unemployment has finally landed on my doorstep (job offers please send to qnod@hotmail.com).
