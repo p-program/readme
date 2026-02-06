@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="4jHANIkBbyo40UnK1-h-">
+    <mxGraphModel dx="1665" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oiEuWV9wGeRi92waJQq4-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Time_Series_Data_Sets.svg;" value="Time Series Data" vertex="1">
+          <mxGeometry height="68" width="51.2" x="430" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-9" edge="1" parent="1" source="oiEuWV9wGeRi92waJQq4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oiEuWV9wGeRi92waJQq4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-10" connectable="0" parent="oiEuWV9wGeRi92waJQq4-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Delete" vertex="1">
+          <mxGeometry relative="1" x="0.1421" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" value="Human" vertex="1">
+          <mxGeometry height="66" width="68" x="290" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-5" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="48" width="50" x="49" y="814" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-6" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.multimediaai;" value="" vertex="1">
+          <mxGeometry height="59.1" width="60" x="180" y="808.9" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-7" edge="1" parent="1" source="oiEuWV9wGeRi92waJQq4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;" target="oiEuWV9wGeRi92waJQq4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-8" connectable="0" parent="oiEuWV9wGeRi92waJQq4-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read" vertex="1">
+          <mxGeometry relative="1" x="0.0966" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-12" edge="1" parent="1" source="oiEuWV9wGeRi92waJQq4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-13" connectable="0" parent="oiEuWV9wGeRi92waJQq4-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Review" vertex="1">
+          <mxGeometry relative="1" x="0.657" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Sandbox" vertex="1">
+          <mxGeometry height="107" width="110" x="160" y="773" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-16" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="370" width="430" x="119" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Firewall" vertex="1">
+          <mxGeometry height="30" width="60" x="292" y="553" as="geometry" />
+        </mxCell>
+        <mxCell id="oiEuWV9wGeRi92waJQq4-19" edge="1" parent="1" source="oiEuWV9wGeRi92waJQq4-5" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.56;exitY=0.573;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="730" as="sourcePoint" />
+            <mxPoint x="160" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
