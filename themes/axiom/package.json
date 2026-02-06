@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
-    "alpinejs": "^3.15.2",
+    "alpinejs": "^3.15.4",
     "autoprefixer": "^10.4.22",
     "chokidar-cli": "^3.0.0",
     "concat": "^1.0.3",
