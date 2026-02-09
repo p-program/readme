@@ -119,4 +119,4 @@ All internet resources are essentially internet businesses and also services.
 
 Reconstructing production relations with AI is to facilitate humans to realize creativity.
 
-When battery, edge computing AI, and VR technologies achieve further low-cost breakthroughs, combined with `eSIM` and 5G networks, that will be the true fourth industrial revolution of information technology.
+When battery, edge computing AI, and VR technologies achieve further low-cost breakthroughs, combined with `IPv6`, `eSIM` and 5G networks, that will be the true fourth industrial revolution of information technology.
