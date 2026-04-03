@@ -23,7 +23,7 @@
     "watch:js": "chokidar \"./src/**/*.js\" -c \"NODE_ENV=development npm run js\""
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "alpinejs": "^3.15.4",
     "autoprefixer": "^10.4.22",
     "chokidar-cli": "^3.0.0",
